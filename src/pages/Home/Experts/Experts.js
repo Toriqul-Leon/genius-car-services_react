@@ -17,9 +17,9 @@ const experts = [
 ];
 const Experts = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <h1 className="text-center text-primary fw-bold fs-1">Our Experts</h1>
-      <div className="row gap-5">
+      <div className="row gap-5 ">
         {experts.map((expert) => (
           <Expert key={expert.id} expert={expert}></Expert>
         ))}
